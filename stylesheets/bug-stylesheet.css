@@ -13,7 +13,6 @@ header {
 }
 a.cta-link {
   color:crimson;
-  font-family: "Helvetica", sans-serif;
   font-size: 18px;
   line-height: 22px;
   padding: 20px;
@@ -24,6 +23,7 @@ h1 {
   color: floralwhite;
   padding-top: 2rem;
   font-weight: 300;
+  padding-left: 10px;
   
 }
 
@@ -41,6 +41,7 @@ h4{
   color: darkgray;
   font-weight: 100;
   margin-top: -15px;
+  padding-left: 10px;
   
 }
 
@@ -81,15 +82,16 @@ aside {
   padding-left: 1rem;
 }
 
- h2{
-  font-family: "Helvetica", sans-serif;
+h2{
   font-weight: 400;
   font-style: normal;
+  margin-bottom: 30px;
+  padding-top: 20px;
 }
 
 h2.left{
   float:left;
-  padding-left: 20px;
+  padding-left: 30px;
 }
 
 h2.right{
@@ -98,7 +100,6 @@ h2.right{
 }
 
 h2.article-header{ 
-  font-family: "Helvetica", sans-serif;
   font-weight: 400;
   font-style: normal;
   padding-left: 2rem;
@@ -109,15 +110,11 @@ h2.article-header{
 article p {
   font-size: 1.2rem;
   font-style: oblique;
-  font-family: "Helvetica", sans-serif;
   clear:left;
-}
-
-p {
-  font-family: "Helvetica", sans-serif;
+  padding-left: 30px;
+  margin-top: -30px;
 
 }
-
 
 aside.purple-back{
   background-color: darkviolet;
@@ -128,7 +125,6 @@ aside.purple-back{
 aside cite{
   font-size: 1rem;
   font-style: normal;
-  font-family: "Helvetica", sans-serif;
   text-align: left;
   float:left;
   padding-left: 2rem;
@@ -138,7 +134,6 @@ aside cite{
 aside a {
   float: right;
   color:crimson;
-  font-family: "Helvetica", sans-serif; 
   font-size: 1rem;
   padding-right: 1.5rem;
   padding-bottom: 1rem;
@@ -149,7 +144,6 @@ aside img {
 }
 
 article h2 {
-  font-family: "Helvetica", sans-serif;
   font-style: oblique;
   float:left;
 }
@@ -157,13 +151,17 @@ section p.float-left{
   float:left;
   padding-left: 2rem;
   font-size:1.25rem;
+  width: 300px;
+  margin-top: -10px
 }
 
 section p.right-float{
   float:right;
-  clear:left;
-  font-size: 1.25rem;
+  font-size: 1.15em;
   font-weight: 400;
+  width:300px;
+  padding-right: 90px;
+  margin-top: -10px;
 }
 div id#right{
     padding-right: 380px;
@@ -178,17 +176,17 @@ footer {
 
 p.copyright {
   text-align: center;
+  padding-bottom: 10px
 }
 
 footer p {
-  font-family: "Helvetica", sans-serif;
   font-size: 1rem;
   color:white;
+  padding-left: 30px;
 
 }
 
 footer a {
-  font-family: "Helvetica", sans-serif;
   font-size: 1rem;
   margin-left: 2rem;
   color: crimson;
@@ -202,8 +200,18 @@ div#grey {
 
 section h2.left{
   float:left;
+  padding-top: 20px;
 }
 
 section h2.right{
   float:right;
+  padding-right: 60px;
+}
+
+section ul{
+  float:right;
+  font-size: 1.05rem;
+  padding-right: 100px;
+  margin-top: -10px;
+  color:darkred;
 }
