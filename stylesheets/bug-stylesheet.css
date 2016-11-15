@@ -1,0 +1,209 @@
+body {
+  width:720px;
+  margin:0px auto;
+  font-family: "Helvetica", sans-serif;
+}
+
+header {
+  height: 120px;
+  background-color:black;
+  margin:0px;
+  padding: 10px;
+
+}
+a.cta-link {
+  color:crimson;
+  font-family: "Helvetica", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 20px;
+  float: right;
+}
+
+h1 {
+  color: floralwhite;
+  padding-top: 2rem;
+  font-weight: 300;
+  
+}
+
+
+h3 {
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 100;
+  clear:right;
+  
+}
+
+h4{
+  font-size: 1.25rem;
+  color: darkgray;
+  font-weight: 100;
+  margin-top: -15px;
+  
+}
+
+nav {
+  background-color: gainsboro;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+nav ul{
+  margin: 0px;
+  padding: 0px;
+}
+
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  padding: 20px;
+  padding-left: 35px;
+  text-align: center;
+}
+
+aside {
+  float:right;
+  width: 280px;
+  height: 600px;
+  box-sizing: border-box;
+  outline-style: solid;
+  outline-color: black;
+  text-align: center;
+  outline-width: thin;
+  margin-right:1rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  clear:left;
+  padding-left: 1rem;
+}
+
+ h2{
+  font-family: "Helvetica", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2.left{
+  float:left;
+  padding-left: 20px;
+}
+
+h2.right{
+  float:right;
+  padding-right: 30px;
+}
+
+h2.article-header{ 
+  font-family: "Helvetica", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-left: 2rem;
+  float:left;
+
+}
+
+article p {
+  font-size: 1.2rem;
+  font-style: oblique;
+  font-family: "Helvetica", sans-serif;
+  clear:left;
+}
+
+p {
+  font-family: "Helvetica", sans-serif;
+
+}
+
+
+aside.purple-back{
+  background-color: darkviolet;
+  padding-right: 2rem;
+  float:left;
+}
+
+aside cite{
+  font-size: 1rem;
+  font-style: normal;
+  font-family: "Helvetica", sans-serif;
+  text-align: left;
+  float:left;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+aside a {
+  float: right;
+  color:crimson;
+  font-family: "Helvetica", sans-serif; 
+  font-size: 1rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+aside img {
+  padding-bottom: 1rem;
+}
+
+article h2 {
+  font-family: "Helvetica", sans-serif;
+  font-style: oblique;
+  float:left;
+}
+section p.float-left{
+  float:left;
+  padding-left: 2rem;
+  font-size:1.25rem;
+}
+
+section p.right-float{
+  float:right;
+  clear:left;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+div id#right{
+    padding-right: 380px;
+}
+
+footer {
+ background-color: black;
+ padding-top: 15px;
+ clear:both;
+  
+}
+
+p.copyright {
+  text-align: center;
+}
+
+footer p {
+  font-family: "Helvetica", sans-serif;
+  font-size: 1rem;
+  color:white;
+
+}
+
+footer a {
+  font-family: "Helvetica", sans-serif;
+  font-size: 1rem;
+  margin-left: 2rem;
+  color: crimson;
+}
+
+div#grey {
+  background-color:darkgray;
+  padding-bottom: 10px;
+  height: 608px;
+}
+
+section h2.left{
+  float:left;
+}
+
+section h2.right{
+  float:right;
+}
